@@ -15863,7 +15863,7 @@
   /***/ ((module) => {
   
   "use strict";
-  module.exports = /*#__PURE__*/JSON.parse('{"DM Sans":{"category":"sans-serif","variants":{"normal":{"400":{"local":["\'DM Sans Regular\'","\'DMSans-Regular\'"]},"500":{"local":["\'DM Sans Medium\'","\'DMSans-Medium\'"]},"700":{"local":["\'DM Sans Bold\'","\'DMSans-Bold\'"]}}}},"Zilla Slab":{"category":"serif","variants":{"normal":{"300":{"local":["\'Zilla Slab Light\'","\'ZillaSlab-Light\'"]},"400":{"local":["\'Zilla Slab\'","\'ZillaSlab-Regular\'"]},"500":{"local":["\'Zilla Slab Medium\'","\'ZillaSlab-Medium\'"]},"600":{"local":["\'Zilla Slab SemiBold\'","\'ZillaSlab-SemiBold\'"]},"700":{"local":["\'Zilla Slab Bold\'","\'ZillaSlab-Bold\'"]}}}},"Saira":{"category":"sans-serif","variants":{"normal":{"100":{"local":["\'Saira Thin\'","\'Saira-Thin\'"]},"200":{"local":["\'Saira ExtraLight\'","\'Saira-ExtraLight\'"]},"300":{"local":["\'Saira Light\'","\'Saira-Light\'"]},"400":{"local":["\'Saira Regular\'","\'Saira-Regular\'"]},"500":{"local":["\'Saira Medium\'","\'Saira-Medium\'"]},"600":{"local":["\'Saira SemiBold\'","\'Saira-SemiBold\'"]},"700":{"local":["\'Saira Bold\'","\'Saira-Bold\'"]},"800":{"local":["\'Saira ExtraBold\'","\'Saira-ExtraBold\'"]},"900":{"local":["\'Saira Black\'","\'Saira-Black\'"]}}}},"Manrope":{"category":"sans-serif","variants":{"normal":{"200":{"local":[]},"300":{"local":[]},"400":{"local":[]},"500":{"local":[]},"600":{"local":[]},"700":{"local":[]},"800":{"local":[]}}}},"Jost":{"category":"sans-serif","variants":{"normal":{"100":{"local":[]},"200":{"local":[]},"300":{"local":[]},"400":{"local":[]},"500":{"local":[]},"600":{"local":[]},"700":{"local":[]},"800":{"local":[]},"900":{"local":[]}}}},"Inter":{"category":"sans-serif","variants":{"normal":{"100":{"local":[]},"200":{"local":[]},"300":{"local":[]},"400":{"local":[]},"500":{"local":[]},"600":{"local":[]},"700":{"local":[]},"800":{"local":[]},"900":{"local":[]}}}},"EB Garamond":{"category":"serif","variants":{"normal":{"400":{"local":[]},"500":{"local":[]},"600":{"local":[]},"700":{"local":[]},"800":{"local":[]}}}},"Work Sans":{"category":"sans-serif","variants":{"normal":{"100":{"local":[]},"200":{"local":[]},"300":{"local":[]},"400":{"local":[]},"500":{"local":[]},"600":{"local":[]},"700":{"local":[]},"800":{"local":[]},"900":{"local":[]}}}},"Mulish":{"category":"sans-serif","variants":{"normal":{"200":{"local":[]},"300":{"local":[]},"400":{"local":[]},"500":{"local":[]},"600":{"local":[]},"700":{"local":[]},"800":{"local":[]},"900":{"local":[]}}}},"Montserrat":{"category":"sans-serif","variants":{"normal":{"100":{"local":["\'Montserrat Thin\'","\'Montserrat-Thin\'"]},"200":{"local":["\'Montserrat ExtraLight\'","\'Montserrat-ExtraLight\'"]},"300":{"local":["\'Montserrat Light\'","\'Montserrat-Light\'"]},"400":{"local":["\'Montserrat Regular\'","\'Montserrat-Regular\'"]},"500":{"local":["\'Montserrat Medium\'","\'Montserrat-Medium\'"]},"600":{"local":["\'Montserrat SemiBold\'","\'Montserrat-SemiBold\'"]},"700":{"local":["\'Montserrat Bold\'","\'Montserrat-Bold\'"]},"800":{"local":["\'Montserrat ExtraBold\'","\'Montserrat-ExtraBold\'"]},"900":{"local":["\'Montserrat Black\'","\'Montserrat-Black\'"]}}}}}');
+  module.exports = /*#__PURE__*/JSON.parse('{"DM Sans":{"category":"sans-serif","variants":{"normal":{"400":{"local":["\'DM Sans Regular\'","\'DMSans-Regular\'"]},"500":{"local":["\'DM Sans Medium\'","\'DMSans-Medium\'"]},"700":{"local":["\'DM Sans Bold\'","\'DMSans-Bold\'"]}}}},"Zilla Slab":{"category":"serif","variants":{"normal":{"300":{"local":["\'Zilla Slab Light\'","\'ZillaSlab-Light\'"]},"400":{"local":["\'Zilla Slab\'","\'ZillaSlab-Regular\'"]},"500":{"local":["\'Zilla Slab Medium\'","\'ZillaSlab-Medium\'"]},"600":{"local":["\'Zilla Slab SemiBold\'","\'ZillaSlab-SemiBold\'"]},"700":{"local":["\'Zilla Slab Bold\'","\'ZillaSlab-Bold\'"]}}}},"Saira":{"category":"sans-serif","variants":{"normal":{"100":{"local":["\'Saira Thin\'","\'Saira-Thin\'"]},"200":{"local":["\'Saira ExtraLight\'","\'Saira-ExtraLight\'"]},"300":{"local":["\'Saira Light\'","\'Saira-Light\'"]},"400":{"local":["\'Saira Regular\'","\'Saira-Regular\'"]},"500":{"local":["\'Saira Medium\'","\'Saira-Medium\'"]},"600":{"local":["\'Saira SemiBold\'","\'Saira-SemiBold\'"]},"700":{"local":["\'Saira Bold\'","\'Saira-Bold\'"]},"800":{"local":["\'Saira ExtraBold\'","\'Saira-ExtraBold\'"]},"900":{"local":["\'Saira Black\'","\'Saira-Black\'"]}}}},"Manrope":{"category":"sans-serif","variants":{"normal":{"200":{"local":[]},"300":{"local":[]},"400":{"local":[]},"500":{"local":[]},"600":{"local":[]},"700":{"local":[]},"800":{"local":[]}}}},"Jost":{"category":"sans-serif","variants":{"normal":{"100":{"local":[]},"200":{"local":[]},"300":{"local":[]},"400":{"local":[]},"500":{"local":[]},"600":{"local":[]},"700":{"local":[]},"800":{"local":[]},"900":{"local":[]}}}},"Inter":{"category":"sans-serif","variants":{"normal":{"100":{"local":[]},"200":{"local":[]},"300":{"local":[]},"400":{"local":[]},"500":{"local":[]},"600":{"local":[]},"700":{"local":[]},"800":{"local":[]},"900":{"local":[]}}}},"EB Garamond":{"category":"serif","variants":{"normal":{"400":{"local":[]},"500":{"local":[]},"600":{"local":[]},"700":{"local":[]},"800":{"local":[]}}}},"Work Sans":{"category":"sans-serif","variants":{"normal":{"100":{"local":[]},"200":{"local":[]},"300":{"local":[]},"400":{"local":[]},"500":{"local":[]},"600":{"local":[]},"700":{"local":[]},"800":{"local":[]},"900":{"local":[]}}}},"Mulish":{"category":"sans-serif","variants":{"normal":{"200":{"local":[]},"300":{"local":[]},"400":{"local":[]},"500":{"local":[]},"600":{"local":[]},"700":{"local":[]},"800":{"local":[]},"900":{"local":[]}}}},"Montserrat":{"category":"sans-serif","variants":{"normal":{"100":{"local":["\'Montserrat Thin\'","\'Montserrat-Thin\'"]},"200":{"local":["\'Montserrat ExtraLight\'","\'Montserrat-ExtraLight\'"]},"300":{"local":["\'Montserrat Light\'","\'Montserrat-Light\'"]},"400":{"local":["\'Montserrat Regular\'","\'Montserrat-Regular\'"]},"500":{"local":["\'Montserrat Medium\'","\'Montserrat-Medium\'"]},"600":{"local":["\'Montserrat SemiBold\'","\'Montserrat-SemiBold\'"]},"700":{"local":["\'Montserrat Bold\'","\'Montserrat-Bold\'"]},"800":{"local":["\'Montserrat ExtraBold\'","\'Montserrat-ExtraBold\'"]},"900":{"local":["\'Montserrat Black\'","\'Montserrat-Black\'"]}}}},"Outfit":{"category":"sans-serif","variants":{"normal":{"100":{"local":["\'Outfit Thin\'","\'Outfit-Thin\'"]},"200":{"local":["\'Outfit ExtraLight\'","\'Outfit-ExtraLight\'"]},"300":{"local":["\'Outfit Light\'","\'Outfit-Light\'"]},"400":{"local":["\'Outfit Regular\'","\'Outfit-Regular\'"]},"500":{"local":["\'Outfit Medium\'","\'Outfit-Medium\'"]},"600":{"local":["\'Outfit SemiBold\'","\'Outfit-SemiBold\'"]},"700":{"local":["\'Outfit Bold\'","\'Outfit-Bold\'"]},"800":{"local":["\'Outfit ExtraBold\'","\'Outfit-ExtraBold\'"]},"900":{"local":["\'Outfit Black\'","\'Outfit-Black\'"]}}}}}');
   
   /***/ })
   
@@ -16023,25 +16023,6 @@
         className: "info-box-button",
         href: choice.url,
         target: "__blank",
-        variant: "primary",
-        text: choice.label,
-        isSmall: true
-      });
-    })));
-  };
-  const PubnewsInfoBoxAction = props => {
-    const [choices, setChoices] = useState(customize.settings.controls[props.setting].choices);
-    return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(Card, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(CardBody, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
-      className: "info-box-label"
-    }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(Dashicon, {
-      className: "info-box-icon",
-      icon: "info"
-    }), customize.settings.controls[props.setting].label), customize.settings.controls[props.setting].description && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
-      className: "info-box-description"
-    }, customize.settings.controls[props.setting].description), choices && choices.map(function (choice, key) {
-      return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(Button, {
-        className: "info-box-button",
-        "data-action": choice.action,
         variant: "primary",
         text: choice.label,
         isSmall: true
@@ -17415,7 +17396,7 @@
   
   // Render components to html
   customize.bind('ready', function () {
-    let pubnewsControls = ['color-group', 'toggle-button', 'simple-toggle', 'radio-tab', 'responsive-multiselect-tab', 'color-picker', 'preset-color-picker', 'preset-gradient-picker', 'color-image-group', 'responsive-range', 'background-color-group-picker', 'checkbox', 'block-repeater', 'item-sortable', 'typography', 'box-shadow', 'color-group-picker', 'section-tab', 'border', 'info-box', 'info-box-action', 'preset-colors', 'async-multiselect'];
+    let pubnewsControls = ['color-group', 'toggle-button', 'simple-toggle', 'radio-tab', 'responsive-multiselect-tab', 'color-picker', 'preset-color-picker', 'preset-gradient-picker', 'color-image-group', 'responsive-range', 'background-color-group-picker', 'checkbox', 'block-repeater', 'item-sortable', 'typography', 'box-shadow', 'color-group-picker', 'section-tab', 'border', 'info-box', 'preset-colors', 'async-multiselect'];
     const getComponent = (controlType, settingValue, setting) => {
       if (controlType) {
         switch (controlType) {
@@ -17535,12 +17516,6 @@
             break;
           case "info-box":
             return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(PubnewsInfoBox, {
-              value: settingValue,
-              setting: setting
-            });
-            break;
-          case "info-box-action":
-            return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(PubnewsInfoBoxAction, {
               value: settingValue,
               setting: setting
             });
