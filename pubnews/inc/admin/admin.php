@@ -598,6 +598,7 @@ if( ! class_exists( 'Admin_Page' ) ) :
          */
         public function plugin_active_install_action( $nonce = '' ) {
             check_ajax_referer( $nonce, '_wpnonce' );
+            if( ! current_user_can("install_plugins") ) wp_die( $this->restriction_message );  // check if user role is admin, if not display restriction message
             $_plugin_action = isset( $_POST['plugin_action'] ) ? sanitize_text_field( $_POST['plugin_action'] ) : '';
             $importer_or_not = isset( $_POST['importer_or_not'] ) ? $_POST['importer_or_not'] : '';
             $link = isset( $_POST['link'] ) ? esc_url( $_POST['link'] ) : '';
