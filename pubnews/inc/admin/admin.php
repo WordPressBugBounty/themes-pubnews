@@ -72,7 +72,9 @@ if( ! class_exists( 'Admin_Page' ) ) :
          * Function that runs when the class is instantiated.
          */
         public function __construct() {
-            $this->demos = include get_template_directory() . '/inc/admin/assets/demos.php';
+            add_action( 'init', function(){
+                $this->demos = include get_template_directory() . '/inc/admin/assets/demos.php';
+            });
             $this->is_premium = preg_match( '/-pro/', wp_get_theme()->get( 'TextDomain' ) );
             $this->current_user_id = get_current_user_id();
             add_action( 'admin_menu', [ $this, 'pubnews_info_page' ], 10 );
@@ -811,7 +813,9 @@ if( ! class_exists( 'Admin_Notices' ) ) :
 
         public function __construct() { 
             $this->theme_activation_date = get_option( 'pubnews_theme_activation_date_timestamp' );
-            $this->restriction_message = esc_html__( "You dont have permission to perform this action", "pubnews" );
+            add_action( 'init', function(){
+                $this->restriction_message = esc_html__( "You dont have permission to perform this action", "pubnews" );
+            });
             $this->notices_permission = get_theme_mod( 'pubnews_disable_admin_notices', false );
             $this->days_since_activation = round( ( current_time( 'timestamp' ) - $this->theme_activation_date ) / 86400 );
 

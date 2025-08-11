@@ -132,7 +132,6 @@
 
 		if ( event.type === 'touchstart' ) {
 			const menuItem = this.parentNode;
-			event.preventDefault();
 			for ( const link of menuItem.parentNode.children ) {
 				if ( menuItem !== link ) {
 					link.classList.remove( 'focus' );
