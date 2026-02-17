@@ -2,9 +2,9 @@
 Contributors: BlazeThemes
 Tags: news, blog, entertainment, one-column, two-columns, grid-layout, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, sticky-post, rtl-language-support, footer-widgets, theme-options, threaded-comments, translation-ready
 Requires at least: 5.3
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 5.6
-Stable tag: 1.0.9
+Stable tag: 1.0.10
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,6 +67,9 @@ URL: https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 License: The MIT License
 
 == Changelog ==
+= 1.0.10 - 17th Feb, 2026 =
+    * Fixed - minor syntax error fix
+
 = 1.0.9 - 11th Aug, 2025 =
     * Fixed - mobile menu parent link click issue fixed
 

@@ -379,7 +379,7 @@ if( ! function_exists( 'pubnews_button_html' ) ) :
         $text = isset( $args['text'] ) ? $args['text'] : $global_button_label;
         $icon = isset( $args['icon'] ) ? $args['icon'] : $global_button_icon_picker['value'];
         $view_all_label_option = isset( $args['text_option'] ) ? $args['text_option'] : false;
-        if( $view_all_label_option ) $text = isset( $args['text'] ) ? $args['text'] : esc_htm__( 'View all', 'pubnews' );
+        if( $view_all_label_option ) $text = isset( $args['text'] ) ? $args['text'] : esc_html__( 'View all', 'pubnews' );
         echo apply_filters( 'pubnews_button_html', sprintf( '<a class="%1$s" href="%2$s">%3$s<i class="%4$s"></i></a>', esc_attr( $classes ), esc_url( $link ), esc_html( $text ), esc_attr( $icon ) ) );
     }
     add_action( 'pubnews_section_block_view_all_hook', 'pubnews_button_html', 10, 1 );
