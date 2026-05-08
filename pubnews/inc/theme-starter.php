@@ -592,6 +592,7 @@
             'single_post_related_posts_option'  => true,
             'single_post_related_posts_title'   => esc_html__( 'Related News', 'pubnews' ),
             'single_post_show_original_image_option'=> false,
+            'single_lightbox_option'=> true,
             'single_post_image_ratio'   =>  array(
                 'desktop'   => 0,
                 'tablet'    => 0,

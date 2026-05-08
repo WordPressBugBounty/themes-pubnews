@@ -67,6 +67,9 @@ URL: https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 License: The MIT License
 
 == Changelog ==
+= 1.0.11 - 8th May, 2026 =
+    * Added - gallery lightbox option in single
+
 = 1.0.10 - 17th Feb, 2026 =
     * Fixed - minor syntax error fix
 

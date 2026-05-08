@@ -497,28 +497,66 @@ jQuery(document).ready(function($) {
         })
     }
 
-    // post format - gallery
-    var gallery = $('.wp-block-gallery')
-    if( gallery.length > 0 ) {
-        gallery.each(function(){
-            var _this = $(this)
-            var findImageSrc = _this.find('.wp-block-image img')
-            var srcArgs = []
-            findImageSrc.each(function(){
-                srcArgs.push({
-                    src: $(this).attr('src'),
+    /**
+     * Gallery Lightbox
+     * 
+     * @since 1.0.11
+     */
+    const GalleryLightbox = {
+        /**
+         * Container
+         * 
+         * @since 1.0.11
+         */
+        get container() {
+            if( ! this._container ) {
+                this._container = $('.wp-block-gallery')
+            }
+            return this._container
+        },
+        /**
+         * Initialization
+         * 
+         * @sine 1.0.11
+         */
+        init() {
+            if( this.container.length > 0 ) {
+                if( $( 'body' ).hasClass( 'single' ) ) {
+                    if( $( '#primary' ).hasClass( 'lightbox--on' ) ) {
+                        this.bindMagnificPopup()
+                    }
+                } else {
+                    this.bindMagnificPopup()
+                }
+            }
+        },
+        /**
+         * Bind Magnific Popup
+         * 
+         * @sine 1.0.11
+         */
+        bindMagnificPopup() {
+            this.container.each(function(){
+                var _this = $(this)
+                var findImageSrc = _this.find('.wp-block-image img')
+                var srcArgs = []
+                findImageSrc.each(function(){
+                    srcArgs.push({
+                        src: $(this).attr('src'),
+                        type: 'image'
+                    })
+                })
+                _this.magnificPopup({
+                    items: srcArgs,
+                    gallery: {
+                        enabled: true
+                    },
                     type: 'image'
                 })
             })
-            _this.magnificPopup({
-                items: srcArgs,
-                gallery: {
-                    enabled: true
-                },
-                type: 'image'
-            })
-        })
+        }
     }
+    GalleryLightbox.init()
 
     // news filter burger
     var newsFilterContainer = $('.news-filter')

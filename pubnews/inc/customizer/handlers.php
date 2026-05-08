@@ -3552,6 +3552,19 @@ if( !function_exists( 'pubnews_customizer_blog_post_archive_panel' ) ) :
             ))
         );
 
+        // Single lightbox option
+        $wp_customize->add_setting( 'single_lightbox_option', array(
+            'default'   => PND\pubnews_get_customizer_default( 'single_lightbox_option' ),
+            'sanitize_callback' => 'pubnews_sanitize_toggle_control'
+        ));
+        $wp_customize->add_control( 
+            new Pubnews_WP_Checkbox_Control( $wp_customize, 'single_lightbox_option', array(
+                'label'	      => esc_html__( 'Enable Lightbox in Gallery', 'pubnews-pro' ),
+                'section'     => 'single_general_settings_section',
+                'settings'    => 'single_lightbox_option'
+            ))
+        );
+
         // single post related news heading
         $wp_customize->add_setting( 'single_post_image_settings_header', array(
             'sanitize_callback' => 'sanitize_text_field'

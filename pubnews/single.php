@@ -22,6 +22,9 @@ get_header();
 	endif;
 	
 	if( ! $single_rendered ) :
+		$main_class[] = 'site-main';
+		$main_class[] = 'width-' . pubnews_get_section_width_layout_val();
+		$main_class[] = 'lightbox--' . ( PND\pubnews_get_customizer_option( 'single_lightbox_option' ) ? 'on' : 'off' );
 		?>
 		<div id="theme-content">
 			<?php
@@ -31,7 +34,7 @@ get_header();
 				 */
 				do_action( 'pubnews_before_main_content' );
 			?>
-			<main id="primary" class="site-main <?php echo esc_attr( 'width-' . pubnews_get_section_width_layout_val() ); ?>">
+			<main id="primary" class="<?php echo esc_attr( implode( ' ', $main_class ) ); ?>">
 				<div class="pubnews-container">
 					<div class="row">
 						<div class="secondary-left-sidebar">
